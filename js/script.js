@@ -14,4 +14,6 @@ console.log(cognomeUtente);
 var listaCognomi = ['Bianchi','Rossi','Duzioni','Balsamo','Verdi'];
 console.log(listaCognomi);
 
-// inserisco il cognome dell'utente nell'array
+//3. inserisco il cognome dell'utente nell'array
+listaCognomi.push(cognomeUtente);
+console.log(listaCognomi);

@@ -17,3 +17,6 @@ console.log(listaCognomi);
 //3. inserisco il cognome dell'utente nell'array
 listaCognomi.push(cognomeUtente);
 console.log(listaCognomi);
+
+//4. stampo la lista ordinata alfabeticamente
+console.log(listaCognomi.sort());

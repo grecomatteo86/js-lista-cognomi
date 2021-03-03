@@ -13,13 +13,16 @@ console.log('l\'array originario è ' + listaCognomi);
 var cognomeUtente = prompt('scrivi il tuo cognome');
 console.log('il cognome inserito dall\'utente è ' + cognomeUtente);
 
-//3. inserisco il cognome dell'utente nell'array
+//3. capitalizzazione delle prima lettera
+cognomeUtente = cognomeUtente.charAt(0).toUpperCase() + cognomeUtente.slice(1);
+
+//4. inserisco il cognome dell'utente nell'array
 listaCognomi.push(cognomeUtente);
 console.log('l\'array con inserito il cognome dell\'utente è ' + listaCognomi);
 
-//4. stampo la lista ordinata alfabeticamente
+//5. stampo la lista ordinata alfabeticamente
 console.log('l\'array ordinato alfabeticamente è ' + listaCognomi.sort());
 
 
-//5. stampo un messaggio che mi dice in che posizione si trova il cognome inserito dall'utente
+//6. stampo un messaggio che mi dice in che posizione si trova il cognome inserito dall'utente
 console.log('il cognome da te inserito si trova in posizione numero ' + parseInt(listaCognomi.indexOf(cognomeUtente) + 1));

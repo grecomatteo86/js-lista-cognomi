@@ -19,3 +19,7 @@ console.log('l\'array con inserito il cognome dell\'utente è ' + listaCognomi);
 
 //4. stampo la lista ordinata alfabeticamente
 console.log('l\'array ordinato alfabeticamente è ' + listaCognomi.sort());
+
+
+//5. stampo un messaggio che mi dice in che posizione si trova il cognome inserito dall'utente
+console.log('il cognome da te inserito si trova in posizione numero ' + parseInt(listaCognomi.indexOf(cognomeUtente) + 1));

@@ -7,5 +7,11 @@ scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
 
 
 //1. chiedo all'utente il cognome
-var cognome = prompt('scrivi il tuo cognome');
-console.log(cognome);
+var cognomeUtente = prompt('scrivi il tuo cognome');
+console.log(cognomeUtente);
+
+//2. creo un array con altri cognomi
+var listaCognomi = ['Bianchi','Rossi','Duzioni','Balsamo','Verdi'];
+console.log(listaCognomi);
+
+// inserisco il cognome dell'utente nell'array
